@@ -1,4 +1,4 @@
-(defproject clojure-playground "0.1.0-SNAPSHOT"
+(defproject com.yyqian/clojure-playground "0.1.0-SNAPSHOT"
   :description "clojure-playground"
   :url "https://yyqian.com"
   :dependencies [[org.clojure/clojure "1.8.0"]
