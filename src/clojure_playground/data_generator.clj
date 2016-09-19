@@ -22,6 +22,7 @@
 (spit "/Users/yyqian/test/linear.dat"
       (reduce
         (fn [accum x] (str accum x " " (drive x) "\n"))
+        ""
         X))
 
 ; ---
