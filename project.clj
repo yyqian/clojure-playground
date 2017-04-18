@@ -2,9 +2,10 @@
   :description "clojure-playground"
   :url "https://yyqian.com"
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [clj-http "2.3.0"]
-                 [cheshire "5.6.3"]
-                 [org.clojure/core.async "0.2.385"]]
+                 [clj-http "3.4.1"]
+                 [cheshire "5.7.0"]
+                 [compojure "1.5.2"]
+                 [org.clojure/core.async "0.3.442"]]
   :main ^:skip-aot clojure-playground.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
